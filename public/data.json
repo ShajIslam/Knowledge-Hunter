@@ -1,50 +1,50 @@
 [
     {
       "id": 1,
-      "cover": "https://ibb.co/c2522FH",
+      "cover": "https://i.ibb.co/vL5LLPG/cover1.jpg",
       "title": "The Secret of Imagination",
       "author": "John Doe",
-      "author_img": "https://ibb.co/km3PCps",
+      "author_img": "https://i.ibb.co/LNQs7MX/2arQnA0.jpg",
       "posted_date": "2023-09-12",
       "reading_time": 120,
       "hashtags": ["fantasy", "imagination", "adventure"]
     },
     {
       "id": 2,
-      "cover": "https://ibb.co/svn8Yx2",
+      "cover": "https://i.ibb.co/C5gRGCz/cover2.jpg",
       "title": "Mystery in the Moonlight",
       "author": "Jane Smith",
-      "author_img": "https://ibb.co/YkGPfWy",
+      "author_img": "https://i.ibb.co/XZCGWSD/NfsrfZW.jpg",
       "posted_date": "2023-09-11",
       "reading_time": 90,
       "hashtags": ["mystery", "moonlight", "suspense"]
     },
     {
       "id": 3,
-      "cover": "https://ibb.co/4MNd1Nd",
+      "cover": "https://i.ibb.co/5vcFKcF/cover3.jpg",
       "title": "The Quest for Knowledge",
       "author": "David Wilson",
-      "author_img": "https://ibb.co/LCgM6w6",
+      "author_img": "https://i.ibb.co/0M3mYXF/RDlxwsW.jpg",
       "posted_date": "2023-09-10",
       "reading_time": 180,
       "hashtags": ["education", "knowledge", "journey"]
     },
     {
       "id": 4,
-      "cover": "https://ibb.co/R9nZcp7",
+      "cover": "https://i.ibb.co/pxDGdvn/cover4.jpg",
       "title": "Love in the Rain",
       "author": "Emily Adams",
-      "author_img": "https://ibb.co/5L9hP2Q",
+      "author_img": "https://i.ibb.co/GVMXkwk/B8ta5Aa.jpg",
       "posted_date": "2023-09-09",
       "reading_time": 72,
       "hashtags": ["romance", "rain", "relationships"]
     },
     {
       "id": 5,
-      "cover": "https://ibb.co/Bc7n2Fh",
+      "cover": "https://i.ibb.co/wBbchjn/cover5.jpg",
       "title": "The Adventures of Captain Redbeard",
       "author": "Michael Johnson",
-      "author_img": "https://ibb.co/3yCPTBv",
+      "author_img": "https://i.ibb.co/GRJQqFZ/N8BPuki.jpg",
       "posted_date": "2023-09-08",
       "reading_time": 150,
       "hashtags": ["adventure", "pirates", "treasure"]
