@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import "../Blog/Blog.css"
 import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({blog,handleBookmarks}) => {
+const Blog = ({blog,handleBookmarks , handleMarkAsRead}) => {
     const {cover, author_img, author, posted_date,reading_time, title,hashtags} = blog;
     return (
         <div className='my-16 ml-10'>
@@ -27,14 +27,18 @@ const Blog = ({blog,handleBookmarks}) => {
             {
                 hashtags.map((hash, idx) =><span key={idx} className='text-[#11111199]'><a href="">#{hash}</a></span>)
             }
+            <br />
+            <br />
+            <button onClick={()=>handleMarkAsRead(reading_time)} className='underline bold text-red-800'>Mark As Read</button>           
         </div>
+        
     );
 };
 
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleBookmarks: PropTypes.func
-
+    handleBookmarks: PropTypes.func,
+    handleMarkAsRead:PropTypes.func
 }
 export default Blog;
