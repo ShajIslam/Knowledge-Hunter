@@ -6,7 +6,7 @@ const Blog = ({blog,handleBookmarks , handleMarkAsRead}) => {
     const {cover, author_img, author, posted_date,reading_time, title,hashtags} = blog;
     return (
         <div className='my-16 ml-10'>
-            <img className='w-full h-[350px] rounded' src={cover} alt="" />
+            <img className='w-full h-[450px] rounded' src={cover} alt="" />
 
             <div className='flex justify-between items-center my-5'>
             <div className='flex gap-2'>
