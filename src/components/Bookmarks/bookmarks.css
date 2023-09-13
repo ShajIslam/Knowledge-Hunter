@@ -1,0 +1,11 @@
+
+  .sticky{
+  /*Main propeties*/
+  position:sticky;
+  top: 50px;
+  /*Others*/
+  margin-bottom: 10px;
+  
+  
+  }
+
