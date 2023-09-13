@@ -4,21 +4,32 @@ import Blogs from './components/Blogs/Blogs'
 import Bookmarks from './components/Bookmarks/Bookmarks'
 import { useState } from 'react'
 import Time from './components/ReadingTime/Time'
+
+
 function App() {
 
   const [bookmarks, setBookmarks] = useState([]);
   const [markAsRead, setMarkAsRead] = useState(0);
 
 
+  
+
+
   const handleBookmarks =  blog => {
     const newBookmarks = [...bookmarks, blog];
+    
     setBookmarks(newBookmarks);
   }
   
+  //console.log(bookmarks);
 
-  const handleMarkAsRead = time=>{
+  const handleMarkAsRead = (time, id)=>{
+
     const newTime = markAsRead + time;
     setMarkAsRead(newTime);
+
+    const newData = bookmarks.filter(bookmark => bookmark.id != id );
+    setBookmarks(newData)
   }
 
   return (
